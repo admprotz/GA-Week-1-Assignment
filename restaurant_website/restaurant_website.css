@@ -1,0 +1,84 @@
+h1 {
+	font-family: 'Barrio', cursive;
+	color: rgba(0,255,0,0.3);
+	text-align: center;
+	font-size: 75px;
+	margin: 60px 0 0 0;
+}
+
+body {
+	font-family:'Open Sans', sans-serif;
+	margin: 0 auto;
+	max-width: 600px;
+	color: white;
+	padding-bottom: 100px;
+}
+
+h2 {
+	text-align: center;
+	color: rgba(0,255,0,0.3);
+	font-size: 55px;
+	margin: 0px 0 70px 0;
+	border-radius: 12px;
+}
+
+div {
+	height: 200px;
+	background-size: cover;
+	position: relative;
+	margin: 40px 0 0 0;
+}
+
+ 
+
+p {
+	background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+	opacity: 0;
+}
+
+.show-description p {
+     height: 150px;
+}
+
+.show-description small {
+	opacity: 1;
+}
+
+.first {
+	background-image: url("https://static.vitl.com/images/blog/image/_l_6decca76697809c01313bfc603c9acf1.jpg");
+}
+
+.second {
+	background-image: url("http://4.bp.blogspot.com/-ZRkFojybUU0/TladvB8hSCI/AAAAAAAABEE/t_hUGVKNwP8/s1600/Garlic+Basil+Veg+Fried+Rice+Thai1.JPG")
+}
+
+.third {
+	background-image: url("http://assets.inhabitat.com/wp-content/blogs.dir/1/files/2015/11/Fudgy-Chocolate-Cake.jpg");
+}
+
+.price {
+	float: right;
+}
+
+<script>
+  $('div').on('click', function() {
+  	$(this).toggleClass('show-description');
+  	});
+
+
+
