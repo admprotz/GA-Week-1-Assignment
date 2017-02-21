@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="/normalize.css" rel="stylesheet">
+ <style>
+    header {
+        text-align: center;
+        color: white;
+        
+    }
+    img {
+       display: block;
+       margin: auto;
+       width: 50%;
+       border: 1px solid white;
+      }
+       body {
+          background-image: url("jerseysky.jpg");
+          font-family: helvetica;
+      }
+       a {
+        color: white;
+        font-size: 20px;
+      }
+       h1 {
+      font-size: 50px;
+      }
+       ul {
+       padding: 10px;
+       background: black;
+       }
+        li {
+           display: inline;
+           padding: 0px 10px 0px 10px;
+        }
+         article {
+         color: white;
+         }
+          button {
+          padding: 15px 32ox;
+          font-size: 16px
+          }
+
+</style>
+</head>
+
+<body>
+<header>
+     <img src="Sequence 01_3.jpg">
+     <h1>The Protz Film Score Page</h1>
+     <ul>
+     <li><a href="#">About Me</a></li>
+     <li><a href="#">Reviews</a></li>
+     <li><a href="#">Favourite Composers</a></li>
+     </ul>
+</header>
+      <article>
+      <h2><b>Interview with Paul Haslinger</h2></b>
+      <p>When synth retro is all the rage in today’s scoring scene with the likes of “Stranger Things” and “It Follows,” Paul Haslinger can count himself as one of the O.G. genre gangsters whose exciting music for creatures, gunplay and kick-ass heroes has never stopped mutating. An Austrian bandmate in the seminal progressive synth-rock group Tangerine Dream during such seminal soundtrack likes as “Near Dark” and “Miracle Mile,” Haslinger immigrated to Hollywood with a prolifically successful scoring career. He’d venture from the cool, teen-centric electronic grooves of such scores as “Cheaters,” “Crazy / Beautiful” and “Blue Crush” to a career-making partnership with the vampiric Lycan slayer Selene on the first “Underworld. ”With grooves as darkly enticing and propulsively exciting as the cat-suited death dealer, Haslinger became a prolific gunsmith for such action thrillers as “Into the Blue,” “Crank” and “Shoot ‘Em Up,” as well as rhythm-driven gamework for “Rainbow Six,” Need for Speed” and “Wolverine” among his other “Underworld” entries. </p>
+      <button>Like</button>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html>
+<head>
+   <title>Adam Protz</title>
+   <style>
+    body {
+       text-align: center;
+       background: black;
+       font-family: helvetica;
+       font-size: 22px;
+       color: white;
+    }
+    img {
+       margin: 40px;
+       border: 1px solid white;
+    }
+    input {
+        border: 2px black;
+        border-radius: 4px;
+        padding: 10px;
+        font-size: 18px;
+       
+    }
+       input [type="submit"] {
+       background-color: black;
+       color: white;
+       }
+    </style>
+   </head>
+ <body>
+      <header>
+       <img src="Sequence 01_3.jpg" alt=Mountain View" style="width:304px;height:304x;">
+       <p>Hi! I'm Adam, a London-based composer. Say hello!</p>
+       <input type="email" placeholder="Your email">
+       <input type="submit">
+       </header>
+ </body>
+
+  </html>
+ 

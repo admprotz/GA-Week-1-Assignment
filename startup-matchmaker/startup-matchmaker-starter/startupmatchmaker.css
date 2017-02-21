@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+body {
+	font-family: 'Merriweather', sans-serif;
+}
+
+h1 {
+	font-weight: 800;
+	color: yellow;
+	font-size: 40px;
+	float: left;
+	padding-bottom: 10px;
+}
+
+header {
+	background-color: black;
+	padding: 50px 25px;
+ }
+
+nav {
+ 	float: right;
+ 	font-size: 20px;
+}
+
+nav li {
+	display: inline-block;
+	padding-right: 5px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+li:nth-child(-n+2) {
+	font-weight: 800;
+}
+
+.yellowline {
+	height: 5px;
+	background-color: yellow;
+}
+
+.twobrains {
+    font-style: italic;
+    text-align: center;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: #dad9dd;
+}
+
+.taste {
+	text-decoration: line-through;
+	color: grey;
+}
+
+.are {
+	text-decoration: underline;
+}
+
+.match {
+	background-image: url("./images/coworking.jpg");
+	background-position: center;
+	padding: 200px;
+}
+
+.matchtext {
+	float: right;
+}
+
+
+
+
+	
+
+
+  
