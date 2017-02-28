@@ -1,0 +1,186 @@
+/*
+
+Colours:
+
+Light yellow:   #FFF653;
+Mid yellow:     #CEC441;
+
+Light grey:     #C6C6C6;
+Mid grey:       #AAAAAA;
+Dark grey:      #999999;
+
+*/
+
+/*******************
+  BASE SETUP
+*******************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+/*******************
+  FONT SETUP
+*******************/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, 
+.teasers-block h2,
+.strapline p {
+	 font-family: 'Merriweather', serif;
+}
+
+a {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*******************
+  GENERAL SETUP
+*******************/
+
+html {
+	font-size: 20px;
+
+}
+
+.cta {
+	color: black;
+	text-decoration: none;
+	background-color: #C6C6C6;
+	padding: 0.5em 0;
+	width: 100%
+	display: block;
+	text-align: center;
+	border-radius: 5px;
+	border-bottom: 3px solid #999999;
+}
+
+/*******************
+  HEADER
+*******************/
+
+ header {
+ 	background-color: black;
+ 	border-bottom: 5px solid #FFF653;
+ 	padding-bottom: 1em 0;
+ }
+
+h1 {
+	color: #FFF653;
+	margin: 0;
+	font-size: 1.5rem;
+	float: left;
+}
+
+header nav {
+     float: right;
+}
+
+header ul {
+	margin-bottom: 0;
+}
+
+header li {
+	display: inline-block;
+	margin: 0 0.3em;
+}
+
+header li:nth child (n+3) a {
+	text-transform: none;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+/*******************
+  STRAPLINE
+*******************/
+
+.strapline {
+	background-color:  #C6C6C6;
+	text-align: center;
+	padding: 1em 0;
+}
+
+.strapline p {
+	margin: 0;
+	font-style: italic;
+	font-size: 1.2rem;
+}
+
+del {
+	color: #999999;
+}
+
+ins {
+	text-decoration: none;
+	position: relative;
+}
+
+ins:before {
+	content: "";
+	height: 3px;
+	background-color: #FFF653;
+	width: 100%;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+}
+
+/*******************
+  INTRO
+*******************/
+
+.intro {
+	background-image: url("../images/coworking.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 1.5em;
+}
+
+.intro-content {
+	background-color: rgba (255,255,255,0.8);
+	width: 300px;
+	padding: 1.5em;
+}
+
+.intro-content h2 {
+	margin-top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

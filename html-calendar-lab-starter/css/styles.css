@@ -1,0 +1,52 @@
+/*******************
+  BASE SETUP
+*******************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*******************
+  CALENDAR
+*******************/
+
+.calendar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  text-align: center;
+  padding: 2em;
+}
+
+th, td {
+  padding: 15px;
+}
+
+td {
+  width: 14.2857142857%
+}
+
+caption {
+  background: #72a0ea;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.greyed-out {
+  text-decoration: line-through;
+  color: #ced6e2;
+  cursor: default;
+}
+
+td:not(.greyed-out):hover {
+  background: #72a0ea;
+  cursor: pointer;
+}
+   

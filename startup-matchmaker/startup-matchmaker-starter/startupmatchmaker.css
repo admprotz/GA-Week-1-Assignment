@@ -16,6 +16,10 @@ body {
 	font-family: 'Merriweather', sans-serif;
 }
 
+.capitals {
+	font-family: 'Oswald', sans-serif;
+}
+
 h1 {
 	font-weight: 800;
 	color: yellow;
@@ -61,6 +65,8 @@ li:nth-child(-n+2) {
     font-size: 25px;
     font-weight: 800;
     background-color: #dad9dd;
+    border-bottom: 5px, black;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.75);
 }
 
 .taste {
@@ -69,18 +75,101 @@ li:nth-child(-n+2) {
 }
 
 .are {
-	text-decoration: underline;
+	border-bottom: 3px solid yellow;
 }
 
 .match {
 	background-image: url("./images/coworking.jpg");
-	background-position: center;
-	padding: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 300px;
+	box-shadow: inset 0 0 5px rgba(0,0,0,.75);
 }
 
 .matchtext {
+	position: relative;
+	width: 45%;
+	margin: 0 auto;
+	padding: 4%;
+	top: -200px;
 	float: right;
+	background-color: rgba(227, 231, 237, .7);
+	font-size: 20px;
+	padding: 40px;
+	font-weight: bold;
+	word-spacing: 8px;
+	border-style: groove;
+	border: 5px #bfc4cc;
+	box-shadow: inset 0 0 5px rgba(0,0,0,.75);
 }
+
+h2 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.bulk {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.yellow-button {
+	color: black;
+	font-weight: bold;
+	letter-spacing: 1px;
+	display: block;
+	background: yellow;
+	overflow: hidden;
+	padding: 2% 0;
+	text-align: center;
+	box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+}
+
+.design-develop {
+	font-size: 50px;
+	font-weight: bold;
+
+}
+
+.third {
+	 float: left;
+	 font-size: 20px;
+	 overflow: hidden;
+	 padding: 2% 0;
+	 box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+	-webkit-column-count: 3;  
+    -moz-column-count: 3; 
+    column-count: 3;
+    background-color: white;
+    -webkit-column-gap: 50px; 
+    -moz-column-gap: 50px;  
+    column-gap: 50px;
+    column-rule-style: solid;
+    column-rule-color: #d6cfcf;
+}
+
+.grey-button {
+	color: black;
+	background-color: #dad9dd;
+	font-weight: bold;
+	letter-spacing: 1px;
+	display: block;
+	overflow: hidden;
+	padding: 2% 0;
+	text-align: center;
+	box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+}
+
+footer {
+	float: left;
+	text-align: center;
+	color: white;
+	background-color: black;
+	font-size: 20px;
+	padding: 2% 3%;
+}
+
+
+
 
 
 
